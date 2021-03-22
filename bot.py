@@ -1,5 +1,5 @@
 import discord
-import os
+from decouple import config
 
 
 
@@ -71,4 +71,4 @@ if confused():
     await message.add_reaction()
     print("Replied to", message.author.name, "to message",message.content)
 
-client.run('TOKEN')
+client.run(config('TOKEN'))
