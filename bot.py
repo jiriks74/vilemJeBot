@@ -71,4 +71,4 @@ if confused():
     await message.add_reaction()
     print("Replied to", message.author.name, "to message",message.content)
 
-client.run(ODAzMjkxMzM2NDc1OTM0NzUx.YA7pWw.3u5qe2ZkHycMgdLRNaJqmINvIxA)
+client.run('TOKEN')
