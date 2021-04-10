@@ -50,7 +50,7 @@ if confused():
 
   if message.content.startswith('!who'):
 
-    await message.channel.send("Who? Vilém pyčo")
+    await message.channel.send("Who? Vilém vole")
     print("Replied to", message.author.name, "to message",message.content)
 
   if message.content.startswith('!zabuč'):
